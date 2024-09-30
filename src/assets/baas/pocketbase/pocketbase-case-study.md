@@ -14,6 +14,10 @@ Pocketbase is a BaaS Provider with a SQLite embedded database, realtime subscrip
 
 It is built on Go, and can be extended using Go or JavaScript depending on your preference.
 
+## History:
+
+Because PocketBase is a relatively new project, digging up its history proved harder than expected. PocketBase started gaining traction in 2022, and the first public commit on GitHub was made the 6th of July 2022.
+
 ## Database:
 
 Pocketbase is a powerful tool when setting up a relational database, with a quick and neat setup. PB uses SQLite under the hood to present you with **Collections**, which contain rows of data items. For instance, a "users" collection can contain rows of user objects with login credentials, post history, and more. And a "posts" collection can include post IDs, post names, post content, etc.
@@ -54,9 +58,13 @@ https://developers.google.com/identity/protocols/oauth2
 
 Once this is set up, PocketBase can handle the heavy lifting for you as seen in the [Docs](https://pocketbase.io/docs/authentication/).
 
+## Hosting:
+
+PocketBase is self-hosting only, unlike Supabase. You can use hosting services like Linode or [Fly](https://fly.io/), meaning you can deploy your site for cheap and easily manage your backend yourself. I also recommend checking out [PocketHost](https://pockethost.io/) for hosting.
+
 ## Advantages of PocketBase:
 
-PocketBase is a very powerful and lightweight tool which can power small to midsize applications. It is also free to use, and can be used for hobby projects as well as small professional sites. You can use hosting services like Linode or Digital Ocean, meaning you can deploy your site for cheap and easily manage your backend yourself.
+PocketBase is a very powerful and lightweight tool which can power small to midsize applications. It is also free to use, and can be used for hobby projects as well as small professional sites.
 
 Furthermore, it only produces a single executable file, making it simple to deploy. You can also extend the framework yourself using Go or JavaScript, making it easier to customize your project.
 
@@ -64,7 +72,7 @@ Furthermore, it only produces a single executable file, making it simple to depl
 
 The biggest disadvantage of PocketBase is that it can only scale vertically, meaning that the only way to scale up your project is to have a more powerful server. Or to put it simply, bigger volumes of traffic requires a bigger computer. However, this is not the end of the world, as most applications are unlikely to grow beyond what can be handled with vertical scaling.
 
-Another disadvantage is that PocketBase is entirely self-hosted, unlike Supabase which offers a 25 dollar per month hosting option. However, as mentioned above, this can be remedied by hosting using Linode, Digtal Ocean or a similar service. You can even set up your own server if you like.
+Another disadvantage is that PocketBase is entirely self-hosted, unlike Supabase which offers a 25 dollar per month hosting option. However, as mentioned above, this can be remedied by hosting using Linode, PocketHost.io or a similar service. You can even set up your own server if you like.
 
 ## Conclusion:
 
